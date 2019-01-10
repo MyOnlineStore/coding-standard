@@ -1,8 +1,8 @@
 {
   "name": "myonlinestore/coding-standard",
   "type": "library",
-  "description": "A skeleton to start a new MyOnlineStore component",
-  "homepage": "https://github.com/MyOnlineStore/mos-coding-standard",
+  "description": "MyOnlineStore Coding Standard",
+  "homepage": "https://github.com/MyOnlineStore/coding-standard",
   "license": "MIT",
   "require": {
     "php": "^7.0.0",
