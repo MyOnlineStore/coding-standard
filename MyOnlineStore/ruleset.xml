@@ -150,6 +150,7 @@
                 <element value="@Template"/>
                 <element value="@test"/>
                 <element value="@throws"/>
+                <element value="@todo"/>
                 <element value="@uses"/>
             </property>
         </properties>
