@@ -275,6 +275,4 @@
         <!-- turned off by PSR2 -> turning back on -->
         <severity>5</severity>
     </rule>
-
-    <rule ref="Sniff/Commenting/DocParamExistsSniff.php"/>
 </ruleset>

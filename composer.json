@@ -19,10 +19,5 @@
     "platform": {
       "php": "7.0.25"
     }
-  },
-  "autoload": {
-    "psr-4": {
-      "MyOnlineStore\\CodingStandard\\": "MyMyOnlineStore"
-    }
   }
 }
