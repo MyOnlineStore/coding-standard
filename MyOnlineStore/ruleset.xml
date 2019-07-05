@@ -16,6 +16,12 @@
         <exclude name="Symfony.Commenting.FunctionComment.ParamNameNoMatch"/>
         <exclude name="Symfony.Commenting.License.Warning"/>
         <exclude name="Symfony.Functions.Arguments.Invalid"/>
+
+        <!-- Dont require Exception, Interface & Trait suffixes and Abstract prefix -->
+        <exclude name="Symfony.NamingConventions.ValidClassName.InvalidAbstractName"/>
+        <exclude name="Symfony.NamingConventions.ValidClassName.InvalidExceptionName"/>
+        <exclude name="Symfony.NamingConventions.ValidClassName.InvalidInterfaceName"/>
+        <exclude name="Symfony.NamingConventions.ValidClassName.InvalidTraitName"/>
     </rule>
 
     <rule ref="Generic.Files.LineLength">
