@@ -1,23 +1,22 @@
 {
-  "name": "myonlinestore/coding-standard",
-  "type": "library",
-  "description": "MyOnlineStore Coding Standard",
-  "homepage": "https://github.com/MyOnlineStore/coding-standard",
-  "license": "MIT",
-  "require": {
-    "php": "^7.2.0",
-    "escapestudios/symfony2-coding-standard": "^3.8.1",
-    "slevomat/coding-standard": "^5.0.4",
-    "squizlabs/php_codesniffer": "^3.4.2"
-  },
-  "config": {
-    "vendor-dir": "vendor",
-    "preferred-install": {
-      "*": "dist"
+    "name": "myonlinestore/coding-standard",
+    "type": "phpcodesniffer-standard",
+    "description": "MyOnlineStore Coding Standard",
+    "homepage": "https://github.com/MyOnlineStore/coding-standard",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+        "doctrine/coding-standard": "^7.0",
+        "squizlabs/php_codesniffer": "^3.5"
     },
-    "sort-packages": true,
-    "platform": {
-      "php": "7.2.19"
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.2.24"
+        }
     }
-  }
 }
