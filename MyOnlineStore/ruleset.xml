@@ -103,4 +103,10 @@
             <property name="spacesCountBeforeColon" value="0"/>
         </properties>
     </rule>
+
+    <rule ref="SlevomatCodingStandard.TypeHints.UnionTypeHintFormat">
+        <properties>
+            <property name="withSpaces" value="yes" />
+        </properties>
+    </rule>
 </ruleset>
